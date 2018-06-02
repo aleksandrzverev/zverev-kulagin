@@ -42,7 +42,7 @@ options = {
 'nls' : 'newton',
 'ls' : 'ls',
 }
-material={
+materials={
 'coef':({'val':1.0},),
 }
 fields={
