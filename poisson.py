@@ -20,7 +20,7 @@ regions = {
 'Gamma_Left' : ('vertices in (x < 0.00001)', 'facet'),
 'Gamma_Right' : ('vertices in (x > 0.099999)', 'facet'),
 }
-variables = {
+variable = {
 't' : ('unknown field', 'temperature', 0),
 's' : ('test field','temperature', 't'),
 }
