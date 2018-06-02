@@ -14,3 +14,9 @@ from __future__ import absolute_import
 from sfepy import data_dir
 
 filename_mesh = data_dir + '/meshes/3d/cylinder.mesh'
+
+regions = {
+    'Omega': 'all', # or 'cells of group 6'
+    'Gamma_Left': ('vertices in (x<0.00001)', 'facet'),
+    'Gamma_Right': ('vertices in (x>0.099999)', 'facet'),
+}
