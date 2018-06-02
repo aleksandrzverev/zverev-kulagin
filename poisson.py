@@ -29,17 +29,3 @@ ebcs = {
 't1' : ('Gamma_Left', {'t.0' : 2.0}),
 't2' : ('Gamma_Right', {'t.0' : -2.0}),
 }
-
-solvers = {
-'ls' : ('ls.scipy_direct', {}),
-'newton' : ('nls.newton',
-{'i_max'
-: 1,
-'eps_a'
-: 1e-10,
-}),
-}
-options = {
-'nls' : 'newton',
-'ls' : 'ls',
-}
