@@ -51,3 +51,7 @@ fields={
 equatations={
 'Temperature':"""dw_laplace.i.Omega(coef.val,s,t)=0"""
 }
+integrals={
+'i':2,
+}
+
