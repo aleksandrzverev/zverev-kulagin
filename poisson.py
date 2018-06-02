@@ -45,3 +45,6 @@ options = {
 material={
 'coef':({'val':1.0},),
 }
+fields={
+'temperature':('real',1,'Omega',1),
+}
