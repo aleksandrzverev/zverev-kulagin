@@ -48,3 +48,6 @@ material={
 fields={
 'temperature':('real',1,'Omega',1),
 }
+equatations={
+'Temperature':"""dw_laplace.i.Omega(coef.val,s,t)=0"""
+}
